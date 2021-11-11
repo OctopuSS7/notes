@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.blue {
+    color: #51afef;
+}
+
+.turquoise {
+    color: #28AFB0;
+}
+
+.orange {
+    color: #F97068;
+}
+
+.yellow {
+    color: #DAFF7D;
+}
+
+body {
+    padding: 20px;
+    background-color: #282c34;
+    color: #dfdfdf;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 auto;
+    max-width: 960px;
+/*    text-align: justify;
+    hyphens: auto;*/
+}
+
+pre {
+    background: #353a45;
+    border: 2px solid #434957;
+    border-radius: 7px;
+    color: #F7A000;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 0.4;
+    margin-bottom: 1em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0.2em 0.7em;
+    display: block;
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+code {
+    background: #353a45;
+    border: 2px solid #434957;
+    border-radius: 4px;
+    color: #F7A000;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0.01em 0.05em;
+    display: block;
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+blockquote {
+    color: #ecbe7b;
+}
+
+a {
+    color: #c678dd;
+    text-decoration: none;
+}
+
+/*a:hover {
+    color: #51afef;
+}*/
+
+h1 {
+    font-size: 20px;
+    color: #ff6c6b;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #51afef;
+    margin-bottom: 0px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 14px;
+    color: #DAFF7D;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+ol li {
+    color: #98be65;
+}
+
+ol li::marker {
+    content: "[" counter(list-item) "]: "
+}
+
+ul li::marker {
+    content: "> "
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+th, td {
+    padding: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+table {
+    white-space:nowrap;
+}
