@@ -32,7 +32,16 @@ body {
     column-gap: 2em;*/
 /*    text-align: justify;
     hyphens: auto;*/
-}​
+}
+
+input {
+    background: #353a45;
+    border: 2px solid #434957;
+    border-radius: 4px;
+    color: #dfdfdf;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+}
 
 pre {
     background: #353a45;
