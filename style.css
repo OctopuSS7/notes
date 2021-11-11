@@ -104,13 +104,13 @@ ol li {
     color: #98be65;
 }
 
-ol li::marker {
+/*ol li::marker {
     content: "[" counter(list-item) "]: "
 }
 
 ul li::marker {
     content: "> "
-}
+}*/
 
 p {
     padding: 0px;
