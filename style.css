@@ -129,6 +129,11 @@ p {
     margin: 0px;
 }
 
+p::before {
+  content: "\A";
+  white-space: pre;
+}
+
 th, td {
     padding: 0px;
     padding-left: 7px;
