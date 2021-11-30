@@ -138,3 +138,9 @@ th, td {
 table {
     white-space:nowrap;
 }
+
+img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(862%) hue-rotate(286deg) brightness(114%) contrast(75%);
+    float: left;
+    width: 40%;
+}
