@@ -27,6 +27,7 @@ body {
     line-height: 22px;
     margin: 0 auto;
     max-width: 960px;
+    column-count: 2;
 /*    column-count: 2;
     column-width: 450px;
     column-gap: 2em;*/
